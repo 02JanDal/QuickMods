@@ -1,37 +1,65 @@
 {
   "formatVersion": 1,
-  "uid":"acs.tabbychat",
+  "uid": "acs.tabbychat",
   "repo": "ZephireNZ.QuickMods",
-  "name":"TabbyChat",
-  "urls":{
-    "forum": ["http://www.minecraftforum.net/forums/thread/1286567"],
-    "source": ["https://github.com/Dykam/tabbychat"],
-    "logo": ["http://i.imgur.com/J6LrxIo.png"]
+  "name": "TabbyChat",
+  "urls": {
+    "forum": [
+      "http://www.minecraftforum.net/forums/thread/1286567"
+    ],
+    "source": [
+      "https://github.com/Dykam/tabbychat"
+    ],
+    "logo": [
+      "http://i.imgur.com/J6LrxIo.png"
+    ]
   },
-  "updateUrl":"https://rawgit.com/ZephireNZ/QuickMods/master/TabbyChat.quickmod",
-  "tags":["GUI"],
-  "catagories":["GUI"],
-  "authors":{ "Developer":["RocketMan10404", "Dykam", "Killjoy1221"] },
-  "versions":[
+  "updateUrl": "https://rawgit.com/ZephireNZ/QuickMods/master/TabbyChat.quickmod",
+  "tags": [
+    "GUI"
+  ],
+  "catagories": [
+    "GUI"
+  ],
+  "authors": {
+    "Developer": [
+      "RocketMan10404",
+      "Dykam",
+      "Killjoy1221"
+    ]
+  },
+  "versions": [
     {
-      "mcCompat":["1.7.10"],
-      "name":"1.11.1.65",
-      "installType":"liteloaderMod",
+      "name": "1.11.1.65",
+      "installType": "liteloaderMod",
       "urls": [
         {
           "url": "https://www.dropbox.com/s/69pty6g2n6fyqen/TabbyChat-1.7.10-1.11.1.65-liteloader.litemod?dl=1",
           "downloadType": "direct"
         }
+      ],
+      "references": [
+        {
+          "uid": "net.minecraft",
+          "version": "1.7.10",
+          "type": "depends"
+        }
       ]
     },
     {
-      "mcCompat":["1.7.2"],
-      "name":"1.11.1.65",
-      "installType":"liteloaderMod",
+      "name": "1.11.1.65",
+      "installType": "liteloaderMod",
       "urls": [
         {
           "url": "https://www.dropbox.com/s/mhylinfa8wilwap/TabbyChat-1.7.2-1.11.1.65-liteloader.litemod?dl=1",
           "downloadType": "direct"
+        }
+      ],
+      "references": [
+        {
+          "uid": "net.minecraft",
+          "version": "1.7.2",
+          "type": "depends"
         }
       ]
     }

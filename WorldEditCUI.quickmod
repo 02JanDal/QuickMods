@@ -1,37 +1,65 @@
 {
   "formatVersion": 1,
-  "uid":"com.mumfrey.worldeditcui",
+  "uid": "com.mumfrey.worldeditcui",
   "repo": "ZephireNZ.QuickMods",
-  "name":"WorldEditCUI",
-  "urls":{
-    "forum": ["http://www.minecraftforum.net/forums/thread/1292886"],
-    "source": ["https://github.com/Mumfrey/WorldEditCUI"],
-    "logo": ["http://eq2.co.uk/minecraft/mods/forumimages/wecui_header.png"]
+  "name": "WorldEditCUI",
+  "urls": {
+    "forum": [
+      "http://www.minecraftforum.net/forums/thread/1292886"
+    ],
+    "source": [
+      "https://github.com/Mumfrey/WorldEditCUI"
+    ],
+    "logo": [
+      "http://eq2.co.uk/minecraft/mods/forumimages/wecui_header.png"
+    ]
   },
-  "updateUrl":"https://rawgit.com/ZephireNZ/QuickMods/master/WorldEditCUI.quickmod",
-  "tags":["GUI"],
-  "catagories":["GUI"],
-  "authors":{ "Developer":["Mumfrey", "yetanotherx", "lahwran"] },
-  "versions":[
+  "updateUrl": "https://rawgit.com/ZephireNZ/QuickMods/master/WorldEditCUI.quickmod",
+  "tags": [
+    "GUI"
+  ],
+  "catagories": [
+    "GUI"
+  ],
+  "authors": {
+    "Developer": [
+      "Mumfrey",
+      "yetanotherx",
+      "lahwran"
+    ]
+  },
+  "versions": [
     {
-      "mcCompat":["1.7.10"],
-      "name":"1.7.10.00",
-      "installType":"liteloaderMod",
+      "name": "1.7.10.00",
+      "installType": "liteloaderMod",
       "urls": [
         {
           "url": "http://eq2.co.uk/minecraft/mods/thirdparty/mod_worldeditcui_1.7.10_00_mc1.7.10.litemod",
           "downloadType": "direct"
         }
+      ],
+      "references": [
+        {
+          "uid": "net.minecraft",
+          "version": "1.7.10",
+          "type": "depends"
+        }
       ]
     },
     {
-      "mcCompat":["1.7.2"],
-      "name":"1.7.2.02",
-      "installType":"liteloaderMod",
+      "name": "1.7.2.02",
+      "installType": "liteloaderMod",
       "urls": [
         {
           "url": "http://eq2.co.uk/minecraft/mods/thirdparty/mod_worldeditcui_1.7.2_02_lite_mc1.7.2.litemod",
           "downloadType": "direct"
+        }
+      ],
+      "references": [
+        {
+          "uid": "net.minecraft",
+          "version": "1.7.2",
+          "type": "depends"
         }
       ]
     }

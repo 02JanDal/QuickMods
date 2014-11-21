@@ -1,36 +1,62 @@
 {
   "formatVersion": 1,
-  "uid":"net.eq2online.macros",
+  "uid": "net.eq2online.macros",
   "repo": "ZephireNZ.QuickMods",
-  "name":"MacrosMod",
-  "urls":{
-    "forum": ["http://www.minecraftforum.net/forums/thread/1275039"],
-    "logo": ["http://eq2.co.uk/minecraft/mods/forumimages/header.png"]
+  "name": "MacrosMod",
+  "urls": {
+    "forum": [
+      "http://www.minecraftforum.net/forums/thread/1275039"
+    ],
+    "logo": [
+      "http://eq2.co.uk/minecraft/mods/forumimages/header.png"
+    ]
   },
-  "updateUrl":"https://rawgit.com/ZephireNZ/QuickMods/master/MacrosMod.quickmod",
-  "tags":["Macros", "GUI"],
-  "catagories":["Macros", "GUI"],
-  "authors":{ "Developer":["Mumfrey"] },
-  "versions":[
+  "updateUrl": "https://rawgit.com/ZephireNZ/QuickMods/master/MacrosMod.quickmod",
+  "tags": [
+    "Macros",
+    "GUI"
+  ],
+  "catagories": [
+    "Macros",
+    "GUI"
+  ],
+  "authors": {
+    "Developer": [
+      "Mumfrey"
+    ]
+  },
+  "versions": [
     {
-      "mcCompat":["1.7.10"],
-      "name":"0.10.12",
-      "installType":"liteloaderMod",
+      "name": "0.10.12",
+      "installType": "liteloaderMod",
       "urls": [
         {
           "url": "http://eq2.co.uk/minecraft/mods/mod_macros_0.10.12_for_1.7.10.litemod",
           "downloadType": "direct"
         }
+      ],
+      "references": [
+        {
+          "uid": "net.minecraft",
+          "version": "1.7.10",
+          "type": "depends"
+        }
       ]
     },
     {
-      "mcCompat":["1.7.2"],
-      "name":"0.10.04",
-      "installType":"liteloaderMod",
+      "name": "0.10.04",
+      "installType": "liteloaderMod",
       "urls": [
         {
           "url": "http://eq2.co.uk/minecraft/mods/mod_macros_0.10.04_for_1.7.2.litemod",
           "downloadType": "direct"
+        }
+      ],
+      "references": [
+        {
+          "uid": "net.minecraft",
+          "version": "1.7.2",
+          "type": "depends"
         }
       ]
     }

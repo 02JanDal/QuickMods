@@ -1,23 +1,41 @@
 {
   "formatVersion": 1,
-  "uid":"watson",
+  "uid": "watson",
   "repo": "ZephireNZ.QuickMods",
-  "name":"Watson",
-  "urls":{
-    "source": ["http://github.com/totemo/watson"]
+  "name": "Watson",
+  "urls": {
+    "source": [
+      "http://github.com/totemo/watson"
+    ]
   },
-  "updateUrl":"https://rawgit.com/ZephireNZ/QuickMods/master/Watson.quickmod",
-  "tags":["Macros", "GUI"],
-  "catagories":["Macros", "GUI"],
-  "authors":{ "Developer":["totemo"] },
-  "versions":[
+  "updateUrl": "https://rawgit.com/ZephireNZ/QuickMods/master/Watson.quickmod",
+  "tags": [
+    "Macros",
+    "GUI"
+  ],
+  "catagories": [
+    "Macros",
+    "GUI"
+  ],
+  "authors": {
+    "Developer": [
+      "totemo"
+    ]
+  },
+  "versions": [
     {
-      "mcCompat":["1.7.10"],
-      "name":"0.8.0",
-      "installType":"liteloaderMod",
+      "name": "0.8.0",
+      "installType": "liteloaderMod",
       "urls": [
         {
           "url": "https://github.com/totemo/watson/releases/download/0.8.0-1.7.10/mod_watson_0.8.0_mc1.7.10.litemod"
+        }
+      ],
+      "references": [
+        {
+          "uid": "net.minecraft",
+          "version": "1.7.10",
+          "type": "depends"
         }
       ]
     }

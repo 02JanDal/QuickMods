@@ -1,27 +1,37 @@
 {
   "formatVersion": 1,
-  "uid":"com.github.lunatrius.ingameinfo",
+  "uid": "com.github.lunatrius.ingameinfo",
   "repo": "ZephireNZ.QuickMods",
-  "modId":"InGameInfoXML",
-  "name":"InGame Info XML",
-  "description":"Ingame Info adds the ability to add lines of information to your in-game screen.",
-  "urls":{
-    "forum": ["http://www.minecraftforum.net/forums/thread/1296949"],
-    "source": ["http://github.com/Lunatrius/InGame-Info-XML"]
+  "modId": "InGameInfoXML",
+  "name": "InGame Info XML",
+  "description": "Ingame Info adds the ability to add lines of information to your in-game screen.",
+  "urls": {
+    "forum": [
+      "http://www.minecraftforum.net/forums/thread/1296949"
+    ],
+    "source": [
+      "http://github.com/Lunatrius/InGame-Info-XML"
+    ]
   },
-  "updateUrl":"https://rawgit.com/ZephireNZ/QuickMods/master/InGameInfoXML.quickmod",
-  "authors":{ "Developer":["Lunatrius"] },
-  "tags": ["GUI"],
-  "catagories": ["GUI"],
+  "updateUrl": "https://rawgit.com/ZephireNZ/QuickMods/master/InGameInfoXML.quickmod",
+  "authors": {
+    "Developer": [
+      "Lunatrius"
+    ]
+  },
+  "tags": [
+    "GUI"
+  ],
+  "catagories": [
+    "GUI"
+  ],
   "references": {
     "com.github.lunatrius.core": "https://rawgit.com/ZephireNZ/QuickMods/master/LunatriusCore.quickmod"
   },
-  "versions":[
+  "versions": [
     {
-      "mcCompat":["1.7.10"],
-      "name":"2.8.1.61",
-      "installType":"forgeMod",
-      "forgeCompat": "[10.13.0.1185,)",
+      "name": "2.8.1.61",
+      "installType": "forgeMod",
       "urls": [
         {
           "url": "http://mc.lunatri.us/files/com.github.lunatrius/InGameInfoXML/1.7.10-2.8.1.61/InGameInfoXML-1.7.10-2.8.1.61-universal.jar",
@@ -33,14 +43,22 @@
           "uid": "com.github.lunatrius.core",
           "version": "[1.1.2.11,)",
           "type": "depends"
+        },
+        {
+          "uid": "net.minecraft",
+          "version": "1.7.10",
+          "type": "depends"
+        },
+        {
+          "uid": "net.minecraftforge",
+          "version": "[10.13.0.1185,)",
+          "type": "depends"
         }
       ]
     },
     {
-      "mcCompat":["1.7.10"],
-      "name":"2.8.0.59",
-      "installType":"forgeMod",
-      "forgeCompat": "[10.13.0.1185,)",
+      "name": "2.8.0.59",
+      "installType": "forgeMod",
       "urls": [
         {
           "url": "http://mc.lunatri.us/files/com.github.lunatrius/InGameInfoXML/1.7.10-2.8.0.59/InGameInfoXML-1.7.10-2.8.0.59-universal.jar",
@@ -52,14 +70,22 @@
           "uid": "com.github.lunatrius.core",
           "version": "[1.1.2.11,)",
           "type": "depends"
+        },
+        {
+          "uid": "net.minecraft",
+          "version": "1.7.10",
+          "type": "depends"
+        },
+        {
+          "uid": "net.minecraftforge",
+          "version": "[10.13.0.1185,)",
+          "type": "depends"
         }
       ]
     },
     {
-      "mcCompat":["1.7.10"],
-      "name":"2.8.0.58",
-      "installType":"forgeMod",
-      "forgeCompat": "[10.13.0.1185,)",
+      "name": "2.8.0.58",
+      "installType": "forgeMod",
       "urls": [
         {
           "url": "http://mc.lunatri.us/files/com.github.lunatrius/InGameInfoXML/1.7.10-2.8.0.58/InGameInfoXML-1.7.10-2.8.0.58-universal.jar",
@@ -71,14 +97,22 @@
           "uid": "com.github.lunatrius.core",
           "version": "[1.1.2.11,)",
           "type": "depends"
+        },
+        {
+          "uid": "net.minecraft",
+          "version": "1.7.10",
+          "type": "depends"
+        },
+        {
+          "uid": "net.minecraftforge",
+          "version": "[10.13.0.1185,)",
+          "type": "depends"
         }
       ]
     },
     {
-      "mcCompat":["1.7.2"],
-      "name":"2.6.2.48",
-      "installType":"forgeMod",
-      "forgeCompat": "[10.12.0.1056,)",
+      "name": "2.6.2.48",
+      "installType": "forgeMod",
       "urls": [
         {
           "url": "http://mc.lunatri.us/files/com.github.lunatrius/InGameInfoXML/1.7.2-2.6.2.48/InGameInfoXML-1.7.2-2.6.2.48-client.jar",
@@ -90,13 +124,22 @@
           "uid": "com.github.lunatrius.core",
           "version": "[1.0.2.7,)",
           "type": "depends"
+        },
+        {
+          "uid": "net.minecraft",
+          "version": "1.7.2",
+          "type": "depends"
+        },
+        {
+          "uid": "net.minecraftforge",
+          "version": "[10.12.0.1056,)",
+          "type": "depends"
         }
       ]
     },
     {
-      "mcCompat":["1.7.2"],
-      "name":"2.6.0.44",
-      "installType":"forgeMod",
+      "name": "2.6.0.44",
+      "installType": "forgeMod",
       "urls": [
         {
           "url": "http://mc.lunatri.us/files/com.github.lunatrius/InGameInfoXML/1.7.2-2.6.0.44/InGameInfoXML-1.7.2-2.6.0.44-client.jar",
@@ -108,13 +151,17 @@
           "uid": "com.github.lunatrius.core",
           "version": "[1.0.2.7,)",
           "type": "depends"
+        },
+        {
+          "uid": "net.minecraft",
+          "version": "1.7.2",
+          "type": "depends"
         }
       ]
     },
     {
-      "mcCompat":["1.7.2"],
-      "name":"2.6.0.45",
-      "installType":"forgeMod",
+      "name": "2.6.0.45",
+      "installType": "forgeMod",
       "urls": [
         {
           "url": "http://mc.lunatri.us/files/com.github.lunatrius/InGameInfoXML/1.7.2-2.6.0.45/InGameInfoXML-1.7.2-2.6.0.45-universal.jar",
@@ -125,6 +172,11 @@
         {
           "uid": "com.github.lunatrius.core",
           "version": "[1.0.2.7,)",
+          "type": "depends"
+        },
+        {
+          "uid": "net.minecraft",
+          "version": "1.7.2",
           "type": "depends"
         }
       ]

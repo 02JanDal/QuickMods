@@ -4,16 +4,27 @@
   "repo": "ZephireNZ.QuickMods",
   "name": "PresenceFootsteps",
   "urls": {
-    "logo": ["http://ha3.eu/public/mc-mods/branding/presencefootsteps.png"],
-    "website": ["http://www.minecraftforum.net/forums/thread/1290546"]
+    "logo": [
+      "http://ha3.eu/public/mc-mods/branding/presencefootsteps.png"
+    ],
+    "website": [
+      "http://www.minecraftforum.net/forums/thread/1290546"
+    ]
   },
   "updateUrl": "https://rawgit.com/ZephireNZ/QuickMods/master/PresenceFootsteps.quickmod",
-  "tags": ["Sound"],
-  "categories": ["Sound"],
-  "authors": {"Developer": ["Hurricaaane"]},
+  "tags": [
+    "Sound"
+  ],
+  "categories": [
+    "Sound"
+  ],
+  "authors": {
+    "Developer": [
+      "Hurricaaane"
+    ]
+  },
   "versions": [
     {
-      "mcCompat": ["1.7.10"],
       "installType": "extract",
       "name": "r4",
       "version": "4",
@@ -22,10 +33,16 @@
           "url": "http://cdn.ha3.eu/minecraft/collections/presencefootsteps/bin/PresenceFootsteps_r5b__1_7_10.zip",
           "downloadType": "direct"
         }
+      ],
+      "references": [
+        {
+          "uid": "net.minecraft",
+          "version": "1.7.10",
+          "type": "depends"
+        }
       ]
     },
     {
-      "mcCompat": ["1.7.2"],
       "installType": "extract",
       "name": "r4",
       "version": "4",
@@ -33,6 +50,13 @@
         {
           "url": "http://cdn.ha3.eu/minecraft/collections/presencefootsteps/bin/PresenceFootsteps_r4__1_7_2.zip",
           "downloadType": "direct"
+        }
+      ],
+      "references": [
+        {
+          "uid": "net.minecraft",
+          "version": "1.7.2",
+          "type": "depends"
         }
       ]
     }

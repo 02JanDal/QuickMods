@@ -1,27 +1,37 @@
 {
   "formatVersion": 1,
-  "uid":"com.github.lunatrius.schematica",
+  "uid": "com.github.lunatrius.schematica",
   "repo": "ZephireNZ.QuickMods",
-  "modId":"Schematica",
-  "name":"Schematica",
-  "description":"With this mod you're able to display a ghost image of a schematic file inside Minecraft to rebuild a structure or export any part of your world (or a server's world) into a schematic file. You're able to export parts of your world, too!",
-  "urls":{
-    "forum": ["http://www.minecraftforum.net/forums/thread/1285818"],
-    "source": ["http://github.com/Lunatrius/Schematica"]
+  "modId": "Schematica",
+  "name": "Schematica",
+  "description": "With this mod you're able to display a ghost image of a schematic file inside Minecraft to rebuild a structure or export any part of your world (or a server's world) into a schematic file. You're able to export parts of your world, too!",
+  "urls": {
+    "forum": [
+      "http://www.minecraftforum.net/forums/thread/1285818"
+    ],
+    "source": [
+      "http://github.com/Lunatrius/Schematica"
+    ]
   },
-  "updateUrl":"https://rawgit.com/ZephireNZ/QuickMods/master/Schematica.quickmod",
-  "authors":{ "Developer":["Lunatrius"] },
-  "tags": ["GUI"],
-  "catagories": ["GUI"],
+  "updateUrl": "https://rawgit.com/ZephireNZ/QuickMods/master/Schematica.quickmod",
+  "authors": {
+    "Developer": [
+      "Lunatrius"
+    ]
+  },
+  "tags": [
+    "GUI"
+  ],
+  "catagories": [
+    "GUI"
+  ],
   "references": {
     "com.github.lunatrius.core": "https://rawgit.com/ZephireNZ/QuickMods/master/LunatriusCore.quickmod"
   },
-  "versions":[
+  "versions": [
     {
-      "mcCompat":["1.7.10"],
-      "name":"1.7.2.96",
-      "installType":"forgeMod",
-      "forgeCompat": "[10.13.0.1185,)",
+      "name": "1.7.2.96",
+      "installType": "forgeMod",
       "urls": [
         {
           "url": "http://mc.lunatri.us/files/com.github.lunatrius/Schematica/1.7.10-1.7.2.96/Schematica-1.7.10-1.7.2.96-universal.jar",
@@ -33,14 +43,22 @@
           "uid": "com.github.lunatrius.core",
           "version": "[1.1.2.11,)",
           "type": "depends"
+        },
+        {
+          "uid": "net.minecraft",
+          "version": "1.7.10",
+          "type": "depends"
+        },
+        {
+          "uid": "net.minecraftforge",
+          "version": "[10.13.0.1185,)",
+          "type": "depends"
         }
       ]
     },
     {
-      "mcCompat":["1.7.10"],
-      "name":"1.7.2.95",
-      "installType":"forgeMod",
-      "forgeCompat": "[10.13.0.1185,)",
+      "name": "1.7.2.95",
+      "installType": "forgeMod",
       "urls": [
         {
           "url": "http://mc.lunatri.us/files/com.github.lunatrius/Schematica/1.7.10-1.7.2.95/Schematica-1.7.10-1.7.2.95-universal.jar",
@@ -52,14 +70,22 @@
           "uid": "com.github.lunatrius.core",
           "version": "[1.1.2.11,)",
           "type": "depends"
+        },
+        {
+          "uid": "net.minecraft",
+          "version": "1.7.10",
+          "type": "depends"
+        },
+        {
+          "uid": "net.minecraftforge",
+          "version": "[10.13.0.1185,)",
+          "type": "depends"
         }
       ]
     },
     {
-      "mcCompat":["1.7.10"],
-      "name":"1.7.1.88",
-      "installType":"forgeMod",
-      "forgeCompat": "[10.13.0.1185,)",
+      "name": "1.7.1.88",
+      "installType": "forgeMod",
       "urls": [
         {
           "url": "http://mc.lunatri.us/files/com.github.lunatrius/Schematica/1.7.10-1.7.1.86/Schematica-1.7.10-1.7.1.88-universal.jar",
@@ -71,14 +97,22 @@
           "uid": "com.github.lunatrius.core",
           "version": "[1.1.2.11,)",
           "type": "depends"
+        },
+        {
+          "uid": "net.minecraft",
+          "version": "1.7.10",
+          "type": "depends"
+        },
+        {
+          "uid": "net.minecraftforge",
+          "version": "[10.13.0.1185,)",
+          "type": "depends"
         }
       ]
     },
     {
-      "mcCompat":["1.7.10"],
-      "name":"1.7.0.85",
-      "installType":"forgeMod",
-      "forgeCompat": "[10.13.0.1185,)",
+      "name": "1.7.0.85",
+      "installType": "forgeMod",
       "urls": [
         {
           "url": "http://mc.lunatri.us/files/com.github.lunatrius/Schematica/1.7.10-1.7.0.85/Schematica-1.7.10-1.7.0.85-universal.jar",
@@ -90,14 +124,22 @@
           "uid": "com.github.lunatrius.core",
           "version": "[1.1.2.11,)",
           "type": "depends"
+        },
+        {
+          "uid": "net.minecraft",
+          "version": "1.7.10",
+          "type": "depends"
+        },
+        {
+          "uid": "net.minecraftforge",
+          "version": "[10.13.0.1185,)",
+          "type": "depends"
         }
       ]
     },
     {
-      "mcCompat":["1.7.10"],
-      "name":"1.7.0.84",
-      "installType":"forgeMod",
-      "forgeCompat": "[10.13.0.1185,)",
+      "name": "1.7.0.84",
+      "installType": "forgeMod",
       "urls": [
         {
           "url": "http://mc.lunatri.us/files/com.github.lunatrius/Schematica/1.7.10-1.7.0.84/Schematica-1.7.10-1.7.0.84-universal.jar",
@@ -109,14 +151,22 @@
           "uid": "com.github.lunatrius.core",
           "version": "[1.1.2.11,)",
           "type": "depends"
+        },
+        {
+          "uid": "net.minecraft",
+          "version": "1.7.10",
+          "type": "depends"
+        },
+        {
+          "uid": "net.minecraftforge",
+          "version": "[10.13.0.1185,)",
+          "type": "depends"
         }
       ]
     },
     {
-      "mcCompat":["1.7.2"],
-      "name":"1.6.1.76",
-      "installType":"forgeMod",
-      "forgeCompat": "[10.12.0.1056,)",
+      "name": "1.6.1.76",
+      "installType": "forgeMod",
       "urls": [
         {
           "url": "http://mc.lunatri.us/files/com.github.lunatrius/Schematica/1.7.2-1.6.1.76/Schematica-1.7.2-1.6.1.76-universal.jar",
@@ -128,14 +178,22 @@
           "uid": "com.github.lunatrius.core",
           "version": "[1.0.2.7,)",
           "type": "depends"
+        },
+        {
+          "uid": "net.minecraft",
+          "version": "1.7.2",
+          "type": "depends"
+        },
+        {
+          "uid": "net.minecraftforge",
+          "version": "[10.12.0.1056,)",
+          "type": "depends"
         }
       ]
     },
     {
-      "mcCompat":["1.7.2"],
-      "name":"1.6.1.75",
-      "installType":"forgeMod",
-      "forgeCompat": "[10.12.0.1056,)",
+      "name": "1.6.1.75",
+      "installType": "forgeMod",
       "urls": [
         {
           "url": "http://mc.lunatri.us/files/com.github.lunatrius/Schematica/1.7.2-1.6.1.75/Schematica-1.7.2-1.6.1.75-universal.jar",
@@ -147,14 +205,23 @@
           "uid": "com.github.lunatrius.core",
           "version": "[1.0.2.7,)",
           "type": "depends"
+        },
+        {
+          "uid": "net.minecraft",
+          "version": "1.7.2",
+          "type": "depends"
+        },
+        {
+          "uid": "net.minecraftforge",
+          "version": "[10.12.0.1056,)",
+          "type": "depends"
         }
       ]
     },
     {
-      "mcCompat":["1.7.2"],
-      "name":"1.6.1.73",
-      "type":"Release",
-      "installType":"forgeMod",
+      "name": "1.6.1.73",
+      "type": "Release",
+      "installType": "forgeMod",
       "urls": [
         {
           "url": "http://mc.lunatri.us/files/com.github.lunatrius/Schematica/1.7.2-1.6.1.73/Schematica-1.7.2-1.6.1.73-universal.jar",
@@ -166,14 +233,18 @@
           "uid": "com.github.lunatrius.core",
           "version": "[1.0.2.7,)",
           "type": "depends"
+        },
+        {
+          "uid": "net.minecraft",
+          "version": "1.7.2",
+          "type": "depends"
         }
       ]
     },
     {
-      "mcCompat":["1.7.2"],
-      "name":"1.6.1.71",
-      "type":"Release",
-      "installType":"forgeMod",
+      "name": "1.6.1.71",
+      "type": "Release",
+      "installType": "forgeMod",
       "urls": [
         {
           "url": "http://mc.lunatri.us/files/com.github.lunatrius/Schematica/1.7.2-1.6.1.71/Schematica-1.7.2-1.6.1.71-universal.jar",
@@ -184,6 +255,11 @@
         {
           "uid": "com.github.lunatrius.core",
           "version": "[1.0.2.7,)",
+          "type": "depends"
+        },
+        {
+          "uid": "net.minecraft",
+          "version": "1.7.2",
           "type": "depends"
         }
       ]
